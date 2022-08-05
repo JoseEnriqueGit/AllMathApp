@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px){
+    .InputList{
+        label{
+    
+            textarea{
+                width: 440px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .InputList{
+        label{
+    
+            textarea{
+                width: 220px;
+            }
+        }
+    }
+
+    .OutPut{
+        grid-template-columns: repeat(2, 1fr);
+        .DivModa{
+            grid-column: 1/3;
+        }
+    }
+}
+
+

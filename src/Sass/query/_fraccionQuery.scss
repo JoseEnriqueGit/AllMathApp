@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px){
+    .Tarjeta{
+        width: 500px;
+        
+        .PanelOperacion{
+
+            // .PartesFraccion{
+            //     display: none;
+            // }
+            .SignoIqual{
+                margin: 0px 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .Tarjeta{
+        width: 270px;
+
+        .PanelOperacion{
+
+            .PartesFraccion{
+                display: none;
+            }
+        }
+    }
+}

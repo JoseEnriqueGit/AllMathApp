@@ -1,0 +1,60 @@
+@mixin SignoIqual () {
+    text-align: center;
+    font-weight: bolder;
+    margin: 5px 0px;
+    font-size: large;
+}
+@mixin DiviLine () {
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+
+@mixin InputSquare1 ($Bg: $FontColor, $W: 100px, $H: 40px) {
+    width: $W;
+    height: $H;
+    margin: 10px 0px;
+
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@mixin OutputSquare1 ($Bg: $Backg,$W: 100px, $H: 40px, $FC: $FontColor) {
+    display: flex;
+    justify-content: center;
+    width: $W;
+    height: $H;
+    margin: 10px 0px;
+
+    border-radius: 10px;
+
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+
+    background: $Bg;
+    user-select: none;
+    overflow: auto;
+}
+
+@mixin OutputSquare2 ($Bg: $Backg, $H: 22px, $FC: $FontColor) {
+    display: flex;
+    justify-content: center;
+    height: $H;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    color: $FC;
+
+    border-radius: 10px;
+
+    background: $Backg;
+    user-select: none;
+    overflow: auto;
+
+    font-weight: bolder;
+}
