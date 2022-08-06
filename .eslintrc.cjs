@@ -24,11 +24,6 @@ module.exports = {
 	plugins: ['react'],
 	rules: {
 		'no-unused-vars': 'warn',
-		'react/prop-type': "off",
-		"spaced-comment": ["error", "always", { "exceptions": ["-", "+"] }],
-		"eqeqeq": "off",
-		"no-dupe-keys": "off",
-		"no-useless-escape": "off",
-		"react/prop-types": "off",
+		'react/prop-type': "off"
 	},
 };
