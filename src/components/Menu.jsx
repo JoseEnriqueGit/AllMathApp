@@ -9,9 +9,10 @@ const Menu = () => {
             <div className='DropMenu'>
                 <div className='BtnMenu' onClick={e => setIsActive(!isActive)}>
                     <span>Matematicas</span>
-                    <div className='Icon'>
-                        <i className='fas fa-angle-left'></i>
-                    </div>
+                    {isActive
+                        ? <div className='DropMenuOpen'><i className='fas fa-angle-left'></i></div>
+                        : <div className='DropMenuClose'><i className='fas fa-angle-left'></i></div>
+                    }
                 </div>
                 {isActive && (
                     <div className='DropContent-open'>
