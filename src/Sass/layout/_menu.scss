@@ -33,20 +33,14 @@ menu{
 
             }
             // Icon close
-            .Icon{
+            .DropMenuClose{
                 transition: 0.2s ease all;
             }
-            // .IconDown{
-            //     transition: 0.2s ease all;
-            //     transform: rotate(-90deg);
-            // }
+            .DropMenuOpen{
+                transition: 0.2s ease all;
+                transform: rotate(-90deg);
+            }
         }
-        // Icon open
-        .Open .Icon{
-            transition: 0.2s ease all;
-            transform: rotate(-90deg);
-        }
-        // Hover menu
         .BtnMenu:hover{
             background: $Red7;
         }
